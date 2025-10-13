@@ -1,9 +1,9 @@
 package com.chohan.core;
 //%JAVA17_HOME%\bin\java -Djasypt.encryptor.password="${ENV_PASSPHRASE}" -jar target\AutoLoginProject-1.0-SNAPSHOT.jar
 //java -cp jasypt-1.9.3.jar org.jasypt.intf.cli.JasyptPBEStringEncryptionCLI input="YourPassword" password="SecretKey" algorithm=PBEWithMD5AndDES
-///t/ThirdParty/Java/jasypt-1.9.3/bin/encrypt.sh password="${ENV_PASSPHRASE}" verbose=false input="This is my message to be encrypted"
-///t/ThirdParty/Java/jasypt-1.9.3/bin/decrypt.sh password="${ENV_PASSPHRASE}" verbose=false input="k1AwOd5XuW4VfPQtEXEdVlMnaNn19hivMbn1G4JQgq/jArjtKqryXksYX4Hl6A0e"
-// java17
+//./encrypt.sh password="${ENV_PASSPHRASE}" verbose=false input="This is my message to be encrypted"
+//./decrypt.sh password="${ENV_PASSPHRASE}" verbose=false input="k1AwOd5XuW4VfPQtEXEdVlMnaNn19hivMbn1G4JQgq/jArjtKqryXksYX4Hl6A0e"
+
 import java.util.Properties;
 import java.io.FileInputStream;
 import java.io.BufferedReader;
